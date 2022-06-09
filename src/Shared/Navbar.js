@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navbar = () => {
+    const [color, setColor] = useState(false);
+
+    const changeColor = () => {
+        if (window.scrollY > 420) {
+            setColor(true)
+        }
+        else {
+            setColor(false);
+        }
+    }
+    window.addEventListener('scroll', changeColor);
+
+    console.log(color);
 
     return (
-        <div class="navbar h-24">
+        <div className={color ? 'navbar bg-secondary sticky top-0 h-24' : 'navbar h-24 '}>
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
