@@ -4,9 +4,9 @@ import Home from './Pages/Home';
 
 function App() {
   return (
-    <div>
+    <div className='px-10'>
       <Home></Home>
-    </div>
+    </div >
   );
 }
 

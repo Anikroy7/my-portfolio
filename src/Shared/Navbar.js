@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
 
     return (
-        <div class="navbar px-10 h-24">
+        <div class="navbar h-24">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -17,7 +17,7 @@ const Navbar = () => {
                         <li><a>Review</a></li>
                     </ul>
                 </div>
-                <a class=" normal-case text-2xl font-bold">Anik <span className='text-accent'>Roy</span></a>
+                <a class=" normal-case text-2xl font-bold">Anik<span className='text-accent'>Roy</span></a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0 font-semibold">
