@@ -20,8 +20,8 @@ const Projects = () => {
                                     <p className=' text-cyan-900 font-semibold text-justify'>This website is developed for a Music composer.</p>
                                     <div className='w-full mt-5 text-justify'>
                                         <div>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>Live Site</button>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>Github Client</button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://upbeat-anthem.web.app/">Live Site</a></button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://github.com/Anikroy7/upbeat-antehem">Github client</a></button>
                                         </div>
                                         <div className='mt-5'>
 
@@ -41,11 +41,11 @@ const Projects = () => {
                                     <p className=' text-cyan-900 font-semibold text-justify'>This Website is based on warehouse management inventories.</p>
                                     <div className='w-full mt-5 text-justify'>
                                         <div>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>Live Site</button>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>Github Client</button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://fruity-garden.web.app/">Live Site</a></button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://github.com/Anikroy7/fruity-garden-client">Github Client</a></button>
                                         </div>
                                         <div className='mt-5'>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>Github Server</button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://github.com/Anikroy7/fruity-garden-server">Github Server</a></button>
                                             <button className='btn btn-xs text-white btn-secondary ml-4'>View Details</button>
                                         </div>
                                     </div>
@@ -62,11 +62,11 @@ const Projects = () => {
                                     <p className=' text-cyan-900 font-semibold text-justify'>This website is developed for a Manufacturer company.</p>
                                     <div className='w-full mt-5 text-justify'>
                                         <div>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>Live Site</button>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>Github Client</button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://handy-plus-5a529.web.app/">Live Site</a></button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://github.com/Anikroy7/handy-plus-client">Github Client</a></button>
                                         </div>
                                         <div className='mt-5'>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>Github Server</button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://github.com/Anikroy7/handy-plus-server">Github Server</a></button>
                                             <button className='btn btn-xs text-white btn-secondary ml-4'>View Details</button>
                                         </div>
                                     </div>
