@@ -7,7 +7,7 @@ const Contact = () => {
     //     emailjs.sendForm('service_tzpjudx', 'template_rvn1t3i', event.target,)
     // }
     return (
-        <div className='p-9 bg-primary mt-9'>
+        <div id='contact' className='p-9 bg-primary mt-9'>
             <form action="https://formspree.io/f/mrgjdkqq"
                 method="POST" className='text-center'>
                 <h3 className='text-3xl font-bold text-center '>Your Information</h3>

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "detail": "A music composer could sell his music services very easily.I used A Simple Navbar, Services section, and footer for making this site.I used Some technology to build this site. Such as Javascript, React, React Bootstrap, Firebase, React spring, etc.I implement Email and password-based authenticationand googled sign-in method on this website."
+    },
+    {
+        "id": 2,
+        "detail": "Users could maintain his/her stock on th site. users can add to stock, users can delete stockUsers can also see his/Her orders and managethem.I used Javascript, React, React Bootstrap, Firebase, React spring, etc.for making this site. I also implemented a protected route by using the required auth.I implement Email and password-based authentication and googled sign-in method on this website."
+    },
+    {
+        "id": 3,
+        "detail": "I used a simple navbar, services, business summary, about us, a submit form, and a footer for the homepage.I implement the admin role and normal user role. For this, admin and normal users get different features normal users get different features normal users get different features"
+    }
+]

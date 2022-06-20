@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 
 const Projects = () => {
+
+
+
+
     return (
         <div class="hero bg-primary p-16 mt-9">
             <div class="hero-conten flex flex-col lg:flex-row">
@@ -16,7 +21,7 @@ const Projects = () => {
                             <div className='flex'>
                                 <div className='text-xl font-bold mr-10 mt-3'>01/</div>
                                 <div>
-                                    <h3 className='text-center text-2xl font-bold mt-3 mb-3'>Upbeat Anthmem </h3>
+                                    <h3 className='text-center text-2xl font-bold mt-3 mb-3'>Upbeat Anthem </h3>
                                     <p className=' text-cyan-900 font-semibold text-justify'>This website is developed for a Music composer.</p>
                                     <div className='w-full mt-5 text-justify'>
                                         <div>
@@ -25,7 +30,7 @@ const Projects = () => {
                                         </div>
                                         <div className='mt-5'>
 
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>View Details</button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><Link to='projectDetail/1'>View Details</Link></button>
                                         </div>
                                     </div>
                                 </div>
@@ -46,7 +51,7 @@ const Projects = () => {
                                         </div>
                                         <div className='mt-5'>
                                             <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://github.com/Anikroy7/fruity-garden-server">Github Server</a></button>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>View Details</button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><Link to='projectDetail/2'>View Details</Link></button>
                                         </div>
                                     </div>
                                 </div>
@@ -67,7 +72,7 @@ const Projects = () => {
                                         </div>
                                         <div className='mt-5'>
                                             <button className='btn btn-xs text-white btn-secondary ml-4'><a href="https://github.com/Anikroy7/handy-plus-server">Github Server</a></button>
-                                            <button className='btn btn-xs text-white btn-secondary ml-4'>View Details</button>
+                                            <button className='btn btn-xs text-white btn-secondary ml-4'><Link to='projectDetail/3'>View Details</Link></button>
                                         </div>
                                     </div>
                                 </div>
@@ -78,6 +83,7 @@ const Projects = () => {
 
                 </section>
             </div>
+
         </div>
     );
 };
